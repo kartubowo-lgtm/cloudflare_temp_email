@@ -24,7 +24,6 @@ keep_vars = true
 # SEND_MAIL_DOMAINS = ["example.com", "mail.example.com"]
 
 [vars]
-# DEFAULT_LANG = "zh"
 DEFAULT_LANG = "en"
 # TITLE = "Custom Title" # custom title
 # ANNOUNCEMENT = "Custom Announcement"

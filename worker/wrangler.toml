@@ -25,6 +25,13 @@ keep_vars = true
 
 [vars]
 DEFAULT_LANG = "en"
+ENABLE_USER_CREATE_EMAIL = true
+ENABLE_USER_DELETE_EMAIL = true
+ENABLE_ADDRESS_PASSWORD = false
+ENABLE_AI_EMAIL_EXTRACT = false
+ENABLE_AGENT_EMAIL_INFO = false
+DISABLE_ADMIN_PASSWORD_CHECK = false
+DISABLE_ANONYMOUS_USER_CREATE_EMAIL = false
 # TITLE = "Custom Title" # custom title
 # ANNOUNCEMENT = "Custom Announcement"
 # always show ANNOUNCEMENT even no changes
@@ -183,3 +190,5 @@ database_id = "d7d5205b-c23f-44d5-b192-15a29c63bbb5"
 # [[services]]
 # binding = "AUTH_INBOX"
 # service = "auth-inbox"
+
+

@@ -25,13 +25,6 @@ keep_vars = true
 
 [vars]
 DEFAULT_LANG = "en"
-ENABLE_USER_CREATE_EMAIL = true
-ENABLE_USER_DELETE_EMAIL = true
-ENABLE_ADDRESS_PASSWORD = false
-ENABLE_AI_EMAIL_EXTRACT = false
-ENABLE_AGENT_EMAIL_INFO = false
-DISABLE_ADMIN_PASSWORD_CHECK = false
-DISABLE_ANONYMOUS_USER_CREATE_EMAIL = false
 # TITLE = "Custom Title" # custom title
 # ANNOUNCEMENT = "Custom Announcement"
 # always show ANNOUNCEMENT even no changes
@@ -87,9 +80,9 @@ ENABLE_AUTO_REPLY = false
 # Allow webhook
 # ENABLE_WEBHOOK = true
 # Enable address password feature, if set true, will generate password for new address and support password login and change
-# ENABLE_ADDRESS_PASSWORD = false
+ENABLE_ADDRESS_PASSWORD = false
 # Show AI Agent mailbox connection info in the address credential modal
-# ENABLE_AGENT_EMAIL_INFO = true
+ENABLE_AGENT_EMAIL_INFO = false
 # Show SMTP/IMAP client connection info in the address credential modal
 # SMTP_IMAP_PROXY_CONFIG = """
 # {
@@ -99,8 +92,8 @@ ENABLE_AUTO_REPLY = false
 # """
 # Footer text
 # COPYRIGHT = "Dream Hunter"
-# DISABLE_SHOW_GITHUB = true
-# DISABLE_SHOW_GITHUB_FOR_USER = true
+DISABLE_SHOW_GITHUB = true
+DISABLE_SHOW_GITHUB_FOR_USER = true
 # Status monitoring page URL
 # STATUS_URL = "https://status.example.com"
 # default send balance, auto initialized when users open settings or send mail; if not set, it will be 0
@@ -144,7 +137,7 @@ ENABLE_AUTO_REPLY = false
 # enable gzip compressed email storage in raw_blob column (run db_migration first)
 # ENABLE_MAIL_GZIP = true
 # AI email extraction, automatically extract verification codes, auth links, etc.
-# ENABLE_AI_EMAIL_EXTRACT = true
+ENABLE_AI_EMAIL_EXTRACT = false
 # AI model name, choose from https://developers.cloudflare.com/workers-ai/features/json-mode/#supported-models
 # Recommended JSON Mode model: "@cf/meta/llama-3.1-8b-instruct-fast"
 # Note: "@cf/meta/llama-3.1-8b-instruct" will be deprecated by Cloudflare on 2026-05-30

@@ -40,7 +40,7 @@ PREFIX = "jems"
 # Disable custom email address name, if set true, users cannot input custom email name, will auto generate
 # DISABLE_CUSTOM_ADDRESS_NAME = true
 # IF YOU WANT TO MAKE YOUR SITE PRIVATE, UNCOMMENT THE FOLLOWING LINES
-PASSWORDS = ["12345678"]
+# PASSWORDS = ["12345678"]
 # For admin panel
 ADMIN_PASSWORDS = ["rahasiakita123"]
 # warning: no password or user check for admin portal
@@ -72,7 +72,7 @@ BLACK_LIST = ""
 # Allow users to create email addresses
 ENABLE_USER_CREATE_EMAIL = true
 # Disable anonymous user create email, if set true, users can only create email addresses after logging in
-# DISABLE_ANONYMOUS_USER_CREATE_EMAIL = true
+DISABLE_ANONYMOUS_USER_CREATE_EMAIL = true
 # Allow users to delete messages
 ENABLE_USER_DELETE_EMAIL = true
 # Allow automatic replies to emails
